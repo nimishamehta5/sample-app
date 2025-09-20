@@ -1,1 +1,1 @@
-# sample app
+# Sample Microservices Application
