@@ -32,7 +32,7 @@ spec:
     app: backend
   ports:
   - port: 5201
-    targetPort: 5201
+    targetPort: 5202
 ---
 apiVersion: apps/v1
 kind: Deployment
