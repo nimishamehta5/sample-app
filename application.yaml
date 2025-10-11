@@ -20,7 +20,7 @@ spec:
         image: nicholasjackson/fake-service:v0.26.2
         ports:
         - name: http
-          containerPort: 9091
+          containerPort: 9090
           protocol: TCP
         livenessProbe:
           httpGet:
@@ -36,7 +36,7 @@ spec:
           periodSeconds: 5
         env:
         - name: "LISTEN_ADDR"
-          value: "0.0.0.0:9091"
+          value: "0.0.0.0:9090"
         - name: "NAME"
           value: "backend"
         - name: "MESSAGE"
