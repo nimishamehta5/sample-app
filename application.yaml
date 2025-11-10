@@ -100,7 +100,7 @@ spec:
         - name: "MESSAGE"
           value: "Hello from Frontend Service!"
         - name: "UPSTREAM_URIS"
-          value: "http://backend:9091"
+          value: "http://backend:9090"
         - name: "HTTP_CLIENT_KEEP_ALIVES"
           value: "false"
 ---
